@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full">
+    <h1 >User Registration Form</h1>
+    <form>
+        <div class="form_">
+            
+            <label for="name">Name</label><br>
+            <input class="inputs" type="text" name="name" placeholder="name" required><br><br>
+
+            <label for="mail">E-mail</label><br>
+            <input class="inputs" name="mail" type="email" placeholder="E-mail" required><br><br>
+
+            <label for="birth">Birth Day</label><br>
+            <input class="inputs" name="Birth" type="date" required><br><br>
+
+            <label for="ID">Student-ID</label><br>
+            <input class="inputs" name="ID" type="number" required placeholder="Student-ID" minlength="8"><br><br>
+        </div><br>
+
+        <div class="check">
+            <input id="check_box" type="checkbox" style="margin-left: 38%;" required>
+            <label id="check_box_label" >I agree with terms and conditions</label>
+        </div>
+        <br>
+        <div class="buttons">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
